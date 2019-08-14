@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/todo.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <h1>To-do list</h1>
+                <nav><a id="home">Home</a></nav>
+            </div>
+        </header>
+        <div role="main" class="main">
+            <div id="list">
+                <table>
+                    <thead>
+                        <tr><th>Title</th><th>Date</th><th></th></tr>
+                    </thead>
+                    <tbody>
+
+                        <!--y list items go here!-->
+
+                        <!-- example, when you're ready to delete this, delete this! -->
+                        <tr><td>Brush the dog</td><td>10-Aug-2019 10:10</td><td><input type="button" value="X" title="Delete"></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="add">
+                <label>
+                    <span>To-do text</span>
+                    <input type="text" id="addText">
+                    <input type="button" value="Add" id="addButton">
+                </label>
+            </div>
+        </div>
+        <script src="js/todo.js"></script>
+
+        <div class="tasks main">
+            <h2>Tasks</h2>
+            <ol>
+                <li>Enter text in the box, click the 'add' button, and it goes into the table</li>
+                <li>When you do it again, it adds it into the list</li>
+                <li>When you add an item, it also adds the date into the second column</li>
+                <li>When you click the X, it removes the row you just clicked</li>
+            </ol>
+        </div>
+    </body>
+</html>
