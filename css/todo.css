@@ -1,0 +1,119 @@
+
+html, body {
+    background: #444;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body, body * {
+    box-sizing: border-box;
+}
+
+input, textarea, body, button {
+    font-size: 17px;
+    font-family: arial;
+}
+
+header {
+    background: #222;
+    margin: 0;
+    padding: 16px 0;
+    color: white;
+}
+
+header h1 {
+    padding-bottom: 8px;
+}
+
+header nav a {
+    font-weight: normal;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+table {
+    margin: 32px 0;
+    background: #666;
+    width: 100%;
+    border-spacing: 0;
+    color: white;
+}
+
+table thead th,
+table tbody td {
+    text-align: left;
+    padding: 8px;
+}
+
+table thead th {
+    color: #aaa;
+    font-weight: normal;
+    font-size: 12px;
+    background: #555;
+}
+
+table td:last-child {
+    text-align: right;
+}
+
+#add {
+    background: #555;
+    padding: 8px;
+    color: white;
+}
+
+#add label {
+    display: flex;
+}
+
+#add label span {
+    padding-right: 4px;
+}
+
+#add label input[type=text] {
+    background: #666;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+}
+
+#add label span {
+    padding: 4px 16px 0 0;
+}
+
+input[type=button] {
+    background: #444;
+    border: none;
+    color: white;
+    padding: 4px 16px;
+    cursor: pointer;
+    text-align: center; 
+}
+
+#add label input[type=text] {
+    flex-grow: 1;
+}
+
+#add label input[type=button] {
+    margin-left: 16px;
+}
+
+.tasks {
+    margin-top: 64px;
+    font-size: 80%;
+    color: #aaa;
+    border-top: solid 1px #555;
+}
+
+
